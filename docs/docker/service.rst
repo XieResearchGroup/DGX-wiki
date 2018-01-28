@@ -81,9 +81,13 @@ If there are no images you need or the images are out of date, you can continue 
       
       nvidia-docker run -it --rm –v local_dir:container_dir nvcr.io/nvidia/repository:<xx.xx>
 
-   The detailed explanation of this command can be found `here <http://docs.nvidia.com/ngc/ngc-user-guide/index.html#keyconcepts>`_.
+   Detailed explanation of this command can be found `here <http://docs.nvidia.com/ngc/ngc-user-guide/index.html#keyconcepts>`_.
   
    More docker commands for NVIDIA DGX Cloud Service using can be found at `1 <http://docs.nvidia.com/dgx/dgx-registry-user-guide/index.html#using-dgx-registry-from-docker-command-line>`_ and `2 <http://docs.nvidia.com/ngc/ngc-user-guide/index.html>`_.
+   
+   The `following part`_ will introduce the common used docker commands.
+   
+.. _following par: `Docker Commands`_
 
 
 

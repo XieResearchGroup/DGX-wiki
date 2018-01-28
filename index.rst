@@ -15,7 +15,7 @@ Four sessions are listed on the navigation bar at the left of the page:
 
 :doc:`DGX station environment <docs/environment/index.rst>` introduces the basic information of NVIDIA® DGX Station™.
 
-:doc:`Docker tutorial <docs/docker/index.rst>` consists of the knowledge of Docker and the specific tutorial of using Docker with DGX Cloud service.
+:doc:`Docker tutorial <docs/docker/index.rst>` consists of the knowledge of Docker and the specific tutorial of using Docker with NVIDIA GPU Cloud service.
 
 :doc:`DGX station cluster <docs/cluster/index.rst>` focuses on the general approach of running computations on the NVIDIA® DGX Station™ cluster and using of `HTCondor™ workload management system <http://research.cs.wisc.edu/htcondor/>`_.
 

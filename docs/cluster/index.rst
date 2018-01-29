@@ -1,18 +1,5 @@
-DGX station cluster
+HTCondor tutorial
 ************************************
-
-Accessing the cluster
-===========================
-
-.. toctree::
-   :maxdepth: 2
-
-   Inside lab <access-internal.rst>
-   Outside lab <access-external.rst>
-
-
-Using the cluster
-=======================
 
 .. toctree::
     :maxdepth: 2

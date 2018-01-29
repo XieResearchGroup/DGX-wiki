@@ -13,11 +13,11 @@ The aim of this wiki is to provide members in `Prof. Lei Xie's group <http://com
 
 Four sessions are listed on the navigation bar at the left of the page:
 
-:doc:`DGX station environment <docs/environment/index.rst>` introduces the basic information of NVIDIA® DGX Station™.
+:doc:`DGX station <docs/environment/index.rst>` introduces the basic information and using of NVIDIA® DGX Station™.
 
 :doc:`Docker tutorial <docs/docker/index.rst>` consists of the knowledge of Docker and the specific tutorial of using Docker with NVIDIA GPU Cloud service.
 
-:doc:`DGX station cluster <docs/cluster/index.rst>` focuses on the general approach of running computations on the NVIDIA® DGX Station™ cluster and using of `HTCondor™ workload management system <http://research.cs.wisc.edu/htcondor/>`_.
+:doc:`HTCondor tutorial <docs/cluster/index.rst>` focuses on the general approach of running jobs via `HTCondor™ workload management system <http://research.cs.wisc.edu/htcondor/>`_.
 
 :doc:`Useful materials <materials.rst>` includes materials used in this wiki.
 

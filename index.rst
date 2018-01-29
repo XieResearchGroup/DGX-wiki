@@ -28,9 +28,9 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
 
-   DGX station environment <docs/environment/index.rst>
+   DGX station <docs/environment/index.rst>
    Docker tutorial <docs/docker/index.rst>
-   DGX station cluster <docs/cluster/index.rst>
+   HTCondor tutorial <docs/cluster/index.rst>
    Useful materials <materials.rst>
 
 

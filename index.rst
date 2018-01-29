@@ -19,8 +19,6 @@ Four sessions are listed on the navigation bar at the left of the page:
 
 :doc:`HTCondor tutorial <docs/cluster/index.rst>` focuses on the general approach of running jobs via `HTCondor™ workload management system <http://research.cs.wisc.edu/htcondor/>`_.
 
-:doc:`Useful materials <materials.rst>` includes materials used in this wiki.
-
 
 Table of Contents
 =================
@@ -31,7 +29,6 @@ Table of Contents
    DGX station <docs/environment/index.rst>
    Docker tutorial <docs/docker/index.rst>
    HTCondor tutorial <docs/cluster/index.rst>
-   Useful materials <materials.rst>
 
 
 .. extra tables and indices

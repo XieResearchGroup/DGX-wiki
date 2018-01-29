@@ -11,13 +11,13 @@ About the wiki
 
 The aim of this wiki is to provide members in `Prof. Lei Xie's group <http://compsci.hunter.cuny.edu/~leixie/index.html>`_ or other users/researchers the basic knowledge to use the NVIDIA® DGX Station™ for research. The wiki contains materials from other tutorials/organizations for a better explanation.
 
-Four sessions are listed on the navigation bar at the left of the page:
+Three sessions are listed on the navigation bar at the left of the page:
 
-:doc:`DGX station <docs/environment/index.rst>` introduces the basic information and using of NVIDIA® DGX Station™.
+`DGX station <http://dgx-wiki.readthedocs.io/en/latest/docs/environment/index.html>`_ introduces the basic information and using of `NVIDIA® DGX Station™ <https://www.nvidia.com/en-us/data-center/dgx-station/>`_.
 
-:doc:`Docker tutorial <docs/docker/index.rst>` consists of the knowledge of Docker and the specific tutorial of using Docker with NVIDIA GPU Cloud service.
+`Docker tutorial <http://dgx-wiki.readthedocs.io/en/latest/docs/docker/index.html>`_ consists of the knowledge of `Docker <https://www.docker.com/>`_ and the specific tutorial of using Docker with `NVIDIA GPU Cloud service <https://www.nvidia.com/en-sg/gpu-cloud/>`_.
 
-:doc:`HTCondor tutorial <docs/cluster/index.rst>` focuses on the general approach of running jobs via `HTCondor™ workload management system <http://research.cs.wisc.edu/htcondor/>`_.
+`HTCondor tutorial <http://dgx-wiki.readthedocs.io/en/latest/docs/cluster/index.html>`_ focuses on the general approach of running jobs via `HTCondor™ workload management system <http://research.cs.wisc.edu/htcondor/>`_.
 
 
 Table of Contents

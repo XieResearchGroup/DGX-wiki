@@ -19,6 +19,14 @@ Three sessions are listed on the navigation bar at the left of the page:
 
 `HTCondor tutorial <http://dgx-wiki.readthedocs.io/en/latest/docs/cluster/index.html>`_ focuses on the general approach of running jobs via `HTCondor™ workload management system <http://research.cs.wisc.edu/htcondor/>`_.
 
+Administrators
+=================
+
+If you have any problems of using workstation or reading wiki. Please contact the administrators of DGX-Lei workstation:
+
+Shuo Zhang(email: szhang4@gradcenter.cuny.edu)
+Hansaim Lim(email: hlim1@gradcenter.cuny.edu)
+Di He(email: dhe@gradcenter.cuny.edu)
 
 Table of Contents
 =================

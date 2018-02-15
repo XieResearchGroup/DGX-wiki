@@ -34,13 +34,16 @@ container with the necessary components to execute code on the GPU.
 Use NGC Service on DGX Station
 ===============================
 
-To use NGC Service and pull framework container images on DGX station, you can follow the steps below:
+To use NGC Service and framework container images on DGX station, administrators have the ability to pull new or the latest images from NGC, and other people can directly run it for there research purpose.
 
-Before trying to get the images, you can first check if the container images are already on DGX station by::
+Pull Docker Images from NGC(For Administrators)
+--------------------------------------------------
+
+Before trying to pull any image, you can first check if the container images are already on DGX station by::
 
  docker images
 
-It will return the Docker images on your system::
+It will return the Docker images on your system(below is an example)::
 
  REPOSITORY                  TAG                            IMAGE ID            CREATED             SIZE
  nvcr.io/nvidia/theano       18.01                          dc2fda091dd4        5 weeks ago         4GB
@@ -52,7 +55,7 @@ It will return the Docker images on your system::
  nvcr.io/nvidia/caffe        17.12                          cd94fcaaec3f        2 months ago        3.25GB
  nvcr.io/nvidia/cuda         9.0-cudnn7-devel-ubuntu16.04   634be617d3ed        2 months ago        1.75GB
  
-If there are no images you need or the images are out of date, you can continue the following steps.
+If there are no images you need or the images are out of date, you can continue the following steps:
 
 1. Activate your NVIDIA DGX Cloud Services account.
 
@@ -67,7 +70,7 @@ If there are no images you need or the images are out of date, you can continue 
      Username: $oauthtoken
      Password: **************************
 
-4. Issue Docker commands such as pushing, pulling, or running Docker containers, depending on your user role.
+4. Pull Docker images.
 
    Download the container that you want from the registry::
        
@@ -77,15 +80,23 @@ If there are no images you need or the images are out of date, you can continue 
 
         docker pull nvcr.io/nvidia/tensorflow:18.01-py2
 
-   Run a container::
-      
-      nvidia-docker run -it --rm –v local_dir:container_dir nvcr.io/nvidia/repository:<xx.xx>
 
-   Detailed explanation of this command can be found `here <http://docs.nvidia.com/ngc/ngc-user-guide/index.html#keyconcepts>`_.
+Use Docker Images(For Users)
+------------------------------
+
+Run a container::
+      
+      nvidia-docker run -it --rm -v local_dir:container_dir nvcr.io/nvidia/repository:<xx.xx>
+
+For example, imagine this circumstance: You want to run a Docker image of tensorflow with 18.01-py2 version. Your local working directory contains files is /home/user_name/workspace. user_name is your account name on DGX station. And you want to see those files in the directory of /workspace in the container image. Then the command to run that container image will be like this::
+
+      nvidia-docker run -it --rm -v /home/user_name/workspace:/workspace nvcr.io/nvidia/tensorflow:18.01-py2
+
+Then you will be able to synchronize files between these two specified directories. A more detailed explanation of this command can be found `here <http://docs.nvidia.com/ngc/ngc-user-guide/index.html#keyconcepts>`_.
   
-   More docker commands for NVIDIA DGX Cloud Service using can be found at `1 <http://docs.nvidia.com/dgx/dgx-registry-user-guide/index.html#using-dgx-registry-from-docker-command-line>`_ and `2 <http://docs.nvidia.com/ngc/ngc-user-guide/index.html>`_.
+More docker commands for NVIDIA DGX Cloud Service using can be found at `1 <http://docs.nvidia.com/dgx/dgx-registry-user-guide/index.html#using-dgx-registry-from-docker-command-line>`_ and `2 <http://docs.nvidia.com/ngc/ngc-user-guide/index.html>`_.
    
-   The `following part <http://dgx-wiki.readthedocs.io/en/latest/docs/docker/command.html>`_ will introduce the common used docker commands.
+To be mentioned that, this part only talks about the using of Docker specifically related with DGX Cloud Service. The `following part <http://dgx-wiki.readthedocs.io/en/latest/docs/docker/command.html>`_ will introduce the commonly used docker commands.
 
 
 

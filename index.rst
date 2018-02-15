@@ -11,7 +11,7 @@ About the wiki
 
 The aim of this wiki is to provide members in `Prof. Lei Xie's group <http://compsci.hunter.cuny.edu/~leixie/index.html>`_ or other users/researchers the basic knowledge to use the NVIDIA® DGX Station™ for research. The wiki contains materials from other tutorials/organizations for a better explanation.
 
-Three sessions are listed on the navigation bar at the left of the page:
+3 sessions are listed on the navigation bar at the left of the page:
 
 `DGX station <http://dgx-wiki.readthedocs.io/en/latest/docs/environment/index.html>`_ introduces the basic information and using of `NVIDIA® DGX Station™ <https://www.nvidia.com/en-us/data-center/dgx-station/>`_.
 
@@ -19,6 +19,16 @@ Three sessions are listed on the navigation bar at the left of the page:
 
 `HTCondor tutorial <http://dgx-wiki.readthedocs.io/en/latest/docs/cluster/index.html>`_ focuses on the general approach of running jobs via `HTCondor™ workload management system <http://research.cs.wisc.edu/htcondor/>`_.
 
+Administrators
+=================
+
+If you have any problems of using workstation or reading wiki. Please contact the administrators of DGX-Lei workstation:
+
+Shuo Zhang(email: szhang4@gradcenter.cuny.edu)
+
+Hansaim Lim(email: hlim1@gradcenter.cuny.edu)
+
+Di He(email: dhe@gradcenter.cuny.edu)
 
 Table of Contents
 =================

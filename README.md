@@ -1,2 +1,3 @@
 # DGX-wiki
-Wiki for using of DGX station
+Wiki for using DGX station
+Website: http://dgx-wiki.readthedocs.io/

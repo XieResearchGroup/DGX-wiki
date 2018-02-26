@@ -6,7 +6,7 @@ Use ssh
 
 Currently, DGX station can only be accessed via CS network inside Hunter College. You can use ssh via lab computer to access it::
    
-    ssh 146.95.214.135
+    ssh yourname@146.95.214.135
 
 Access DGX station outside::
 
@@ -18,4 +18,4 @@ Access DGX station outside::
 2. ssh lab computers from eniac.
 3. ssh DGX station(IP: 146.95.214.135) from lab computers::
    
-    ssh 146.95.214.135
+    ssh yourname@146.95.214.135

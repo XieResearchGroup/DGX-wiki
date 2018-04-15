@@ -16,7 +16,6 @@ If you want to access DGX station outside, the following steps are needed:
 
    (Note: Eniac account should be claimed by logging in from one of the Computer Science Linux Labs (1001B or 1001C), or it will be deleted)
    
-<<<<<<< HEAD
    Then use ssh to connect to lab computers from eniac.
    
 Or
@@ -25,6 +24,4 @@ Or
 
 2. Use ssh to connect to DGX station from lab computers::
    
-=======
->>>>>>> refs/remotes/XieResearchGroup/master
     ssh yourname@146.95.214.135

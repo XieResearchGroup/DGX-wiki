@@ -59,7 +59,7 @@ If there are no images you need or the images are out of date, you can continue 
 
 1. Activate your NVIDIA DGX Cloud Services account.
 
-2. Log on to the `DGX Cloud Services <http://compute.nvidia.com/>`_ website. `Obtain your API Key <http://docs.nvidia.com/dgx/dgx-registry-user-guide/index.html#getting-api-key>`_ so you can access the NVIDIA DGX Container Registry. 
+2. Log on to the `NVIDIA GPU CLOUD <https://ngc.nvidia.com/signin/email>`_ website. `Obtain your API Key <http://docs.nvidia.com/dgx/dgx-registry-user-guide/index.html#getting-api-key>`_ so you can access the NVIDIA DGX Container Registry. 
 
 3. Log in to the NVIDIA DGX Container Registry from a command line::
 
@@ -86,11 +86,11 @@ Use Docker Images(For Users)
 
 Run a container::
       
-      nvidia-docker run -it --rm -v local_dir:container_dir nvcr.io/nvidia/repository:<xx.xx>
+      nvidia-docker run --name containerName -it --rm -v local_dir:container_dir nvcr.io/nvidia/repository:<xx.xx>
 
-For example, imagine this circumstance: You want to run a Docker image of tensorflow with 18.01-py2 version. Your local working directory contains files is /home/user_name/workspace. user_name is your account name on DGX station. And you want to see those files in the directory of /workspace in the container image. Then the command to run that container image will be like this::
+For example, imagine this circumstance: You want to run a Docker image of tensorflow with 18.01-py2 version. Your local working directory contains files is /home/user_name/workspace. user_name is your account name on DGX station. And you want to see those files in the directory of /workspace in the container image. Then the command to run that container image with a name of 'test' will be like this::
 
-      nvidia-docker run -it --rm -v /home/user_name/workspace:/workspace nvcr.io/nvidia/tensorflow:18.01-py2
+      nvidia-docker run --name test -it --rm -v /home/user_name/workspace:/workspace nvcr.io/nvidia/tensorflow:18.01-py2
 
 Then you will be able to synchronize files between these two specified directories. A more detailed explanation of this command can be found `here <http://docs.nvidia.com/ngc/ngc-user-guide/index.html#keyconcepts>`_.
   

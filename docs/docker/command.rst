@@ -12,7 +12,7 @@ docker pull           Pull an image or a repository from a registry
 docker push           Push an image or a repository to a registry
 docker run            Run a command in a new container
 docker rename         Rename a container
-docker kill           Kill one or more running containers
+docker kill           Kill one or more running containers 
 ===============   ======================================================
 
 There are two usual ways to exit a container. In most cases, people use "ctrl+P+Q" to exit a container and jobs running in it will not be killed::

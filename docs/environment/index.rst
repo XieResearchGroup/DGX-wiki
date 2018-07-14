@@ -6,8 +6,8 @@ DGX station
    :maxdepth: 2
 
    About DGX station <DGX.rst>
-   Connect to DGX station <connect.rst>
-   Linux Commands <linux.rst>
+   Accessing the DGX station <connect.rst>
+   Using the DGX station <using.rst>
 
 
 

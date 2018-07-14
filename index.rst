@@ -39,6 +39,7 @@ Table of Contents
    :maxdepth: 2
 
    DGX station <docs/environment/index.rst>
+   Linux tutorial <docs/linux/index.rst>
    Docker tutorial <docs/docker/index.rst>
    HTCondor tutorial <docs/cluster/index.rst>
 

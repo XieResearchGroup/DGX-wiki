@@ -11,9 +11,11 @@ About the wiki
 
 The aim of this wiki is to provide members in `Prof. Lei Xie's group <http://compsci.hunter.cuny.edu/~leixie/index.html>`_ or other users/researchers the basic knowledge to use the NVIDIA® DGX Station™ for research. The wiki contains materials from other tutorials/organizations for a better explanation.
 
-3 sessions are listed on the navigation bar at the left of the page:
+Following sessions are listed on the navigation bar at the left of the page:
 
 `DGX station <http://dgx-wiki.readthedocs.io/en/latest/docs/environment/index.html>`_ introduces the basic information and using of `NVIDIA® DGX Station™ <https://www.nvidia.com/en-us/data-center/dgx-station/>`_.
+
+`Linux tutorial <http://dgx-wiki.readthedocs.io/en/latest/docs/linux/index.html>`_ includes some basic infomation about how to use Linux system.
 
 `Docker tutorial <http://dgx-wiki.readthedocs.io/en/latest/docs/docker/index.html>`_ consists of the knowledge of `Docker <https://www.docker.com/>`_ and the specific tutorial of using Docker with `NVIDIA GPU Cloud service <https://www.nvidia.com/en-sg/gpu-cloud/>`_.
 

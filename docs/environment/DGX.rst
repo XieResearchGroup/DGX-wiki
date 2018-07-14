@@ -4,9 +4,9 @@ About DGX station
 What is DGX Station
 =====================
 
-.. image:: dgxstation-hero.png
-
 NVIDIA® DGX Station™ is the world’s first personal supercomputer for leading-edge AI development.
+
+.. image:: dgxstation-hero.png
 
 Features of DGX Station
 ========================

@@ -1,8 +1,8 @@
 Connect to DGX station
 *************************
 
-Use ssh
-========
+SSH Login
+==========
 
 Currently, DGX station(IP: 146.95.214.135) can only be accessed via CS network inside Hunter College. You can use ssh via lab computer to access it::
    

@@ -22,10 +22,10 @@ There are two usual ways to exit a container. In most cases, people use "ctrl+P+
 
 To resume a container after exiting with "ctrl+P+Q"::
 
- docker exec -it containerID or containerNAME /bin/bash
+ docker exec -it containerNAME /bin/bash
 
 or ::
 
- docker attach containerID or containerNAME
+ docker attach containerNAME
 
 Note: Using the second one will sometimes get stuck and have no response for a long time. The first one is preferred. 

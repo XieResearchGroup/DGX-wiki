@@ -88,9 +88,9 @@ Run a container::
       
       nvidia-docker run --name containerName -it --rm -v local_dir:container_dir nvcr.io/nvidia/repository:<xx.xx>
 
-For example, imagine this circumstance: You want to run a Docker image of tensorflow with 18.01-py2 version. Your local working directory contains files is /home/user_name/workspace. user_name is your account name on DGX station. And you want to see those files in the directory of /workspace in the container image. Then the command to run that container image with a name of 'test' will be like this::
+For example: If you want to run a Docker image of tensorflow with 18.01-py2 version. Your working directory contains files is /raid/home/user_name/workspace. user_name is your account name on DGX station. And you want to see those files in the directory of /workspace in the container image. Then the command to run that container image with a name of 'test' will be like this::
 
-      nvidia-docker run --name test -it --rm -v /home/user_name/workspace:/workspace nvcr.io/nvidia/tensorflow:18.01-py2
+      nvidia-docker run --name test -it --rm -v /raid/home/user_name/workspace:/workspace nvcr.io/nvidia/tensorflow:18.01-py2
 
 Then you will be able to synchronize files between these two specified directories. A more detailed explanation of this command can be found `here <http://docs.nvidia.com/ngc/ngc-user-guide/index.html#keyconcepts>`_.
   

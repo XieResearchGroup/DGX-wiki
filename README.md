@@ -3,7 +3,7 @@
 ## Wiki for using DGX station
 Website: http://dgx-wiki.readthedocs.io/
 
-## For tensorflow users
+## For Tensorflow users
 
 - Specify the gpu you want to use for each job after checking gpu-usage with **nvidia-smi**
 - **Do not** use **allow_soft_placement=True** in your session config to avoid the job is allocated to other gpus other than the one you want to use

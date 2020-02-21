@@ -25,7 +25,7 @@ Data Backup
 
 Only storing data under "/raid" without a backup is unsafe since we use the `RAID 0 <https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_0>`_ configuration. 
 
-All users are required to back up their data by themselves using their preferred ways under the directory:
+All users are required to back up their data by themselves using their preferred ways under the directory::
 
  /data/dgx/backup/user_name
 

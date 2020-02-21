@@ -19,3 +19,14 @@ To avoid the unnecessary consumption of OS storage, all users should only use::
  /raid/home/user_name
 
 as their working directory.
+
+Data Backup
+=====================
+
+Only storing data under "/raid" without a backup is unsafe since we use the `RAID 0 <https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_0>`_ configuration. 
+
+All users are required to back up their data by themselves using their preferred ways under the directory:
+
+ /data/dgx/backup/user_name
+
+The data under "/data/dgx/backup" is stored in an external 8TB disk. It is also recommended that all users still make another copy of their important data outside the DGX station.

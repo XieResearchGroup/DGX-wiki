@@ -42,6 +42,7 @@ Table of Contents
    Linux tutorial <docs/linux/index.rst>
    Docker tutorial <docs/docker/index.rst>
    HTCondor tutorial <docs/cluster/index.rst>
+   Better Deep Learninng <docs/better_dl/index.rst>
 
 
 .. extra tables and indices

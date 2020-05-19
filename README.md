@@ -23,7 +23,7 @@ Di He | dhe@gradcenter.cuny.edu
 - Make in-development repositories **private** (unless published)
 
 ## Wiki for using DGX station
-Website: https://github.com/XieResearchGroup/DGX-wiki
+Website: https://dgx-wiki.readthedocs.io/
 
 ## Simple Markdown tutorial
 Website: [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).

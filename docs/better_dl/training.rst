@@ -60,9 +60,13 @@ the weights of a layer are updated given an expectation that the prior layer out
 
 1. to standardize the inputs to a network, applied to either activations of a prior layer or inputs directly
 accelerates training, providers some regularization effect, reducing generalizing error
+
 2. could make network training less sensitive to weight initialization
+
 3. probably use before the activations
+
 4. enable the use use large learning rate (also increase decay rate if learning rate schedule is in place)
+
 
 Greedy layer-wise pre-training
 -----------------

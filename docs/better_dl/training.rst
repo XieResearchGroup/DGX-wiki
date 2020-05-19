@@ -70,3 +70,7 @@ Greedy layer-wise pre-training
 
 Jump start with transfer learning
 -----------------
+
+
+Issues Log
+-----------------

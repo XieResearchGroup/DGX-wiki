@@ -25,3 +25,6 @@ Learn to combine predictions with stacked generalization ensembles
 
 Combine model parameters with average model weights ensemble
 -----------------
+
+Issues Log
+-----------------

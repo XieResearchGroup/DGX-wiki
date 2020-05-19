@@ -25,6 +25,10 @@ Di He | dhe@gradcenter.cuny.edu
 ## Wiki for using DGX station
 Website: https://dgx-wiki.readthedocs.io/
 
+## Better Deep Learning
+- internal deep learning models experience and tricks/issue
+Website: 
+
 ## Simple Markdown tutorial
 Website: [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 

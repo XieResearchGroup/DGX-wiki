@@ -8,11 +8,11 @@ Configure capacity with nodes and layers
 Configure what to optimize with loss functions
 -----------------
 1. distill all aspects of the model down into a single number in such a way that improvements in the number are a sign of a better model
-1. understand the relationship of specified loss with objective
-2. understand implication of loss
-3. expect the value range of loss term is possible (possible after certain data scaling)
-4. customized loss
-5. weighted loss
+2. understand the relationship of specified loss with objective
+3. understand implication of loss
+4. expect the value range of loss term is possible (possible after certain data scaling)
+5. customized loss
+6. weighted loss
 
 Configure gradient precision with batch size
 -----------------
@@ -60,11 +60,8 @@ the weights of a layer are updated given an expectation that the prior layer out
 
 1. to standardize the inputs to a network, applied to either activations of a prior layer or inputs directly
 accelerates training, providers some regularization effect, reducing generalizing error
-
 2. could make network training less sensitive to weight initialization
-
 3. probably use before the activations
-
 4. enable the use use large learning rate (also increase decay rate if learning rate schedule is in place)
 
 

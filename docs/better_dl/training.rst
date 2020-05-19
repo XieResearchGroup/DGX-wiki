@@ -1,14 +1,11 @@
 Better Deep Learning
 ***************************
 
-Better Training
-==================
-
 Configure capacity with nodes and layers
 -----------------
 1. make sure model has sufficient capacity (can be over-trained)
 
-configure what to optimize with loss functions
+Configure what to optimize with loss functions
 -----------------
 1. distill all aspects of the model down into a single number in such a way that improvements in the number are a sign of a better model
 1. understand the relationship of specified loss with objective
@@ -17,14 +14,14 @@ configure what to optimize with loss functions
 4. customized loss
 5. weighted loss
 
-configure gradient precision with batch size
+Configure gradient precision with batch size
 -----------------
 1. smaller batches, as noisy updates to the model weights, brings (generally) a more robust model, regularizing effects and lower generation error
 2. small batch results in generally rapid learning but a volatile learning process with higher variance in the performance metrics.
 3. small batches (more noisy updates) to the model generally require a smaller learning rate
 4. large batch sizes may enable the use of larger learning rate
 
-configure the speed of learning with learning rate
+Configure the speed of learning with learning rate
 -----------------
 
 1. too large learning rate could make gradient descent inadvertently increase rather than decrease the training error.
@@ -35,12 +32,12 @@ configure the speed of learning with learning rate
 6. learning rate schedule
 7. the method of momentum is designed to accelerate learning, especially in the face of high curvature, small but consistent gradients, or noisy gradients
 
-stabilize learning with data scaling
+Stabilize learning with data scaling
 -----------------
 1. unscaled input variables can result in slow or unstable learning process
 2. unscaled target variables on regression problems can result in exploding gradients causing the learning process to fail
 
-fixing vanishing gradients with ReLU (sigmoid and hyperbolic tangent not suitable as activations)
+Fixing vanishing gradients with ReLU (sigmoid and hyperbolic tangent not suitable as activations)
 -----------------
 1. when using ReLU in the network, to avoid "dead" nodes in the begining of training,consider setting the bias to small value, such as 0.1 or 1.0
 2. use ‘he-norm’ to initialize the weights
@@ -48,7 +45,7 @@ fixing vanishing gradients with ReLU (sigmoid and hyperbolic tangent not suitabl
 
 
 
-fixing exploding gradients with gradient clipping
+Fixing exploding gradients with gradient clipping
 -----------------
 1. a chosen vector norm and clipping gradient values that exceed a preferred range
 2. only solves numerical stability issues, no implication of overall model performance
@@ -67,9 +64,9 @@ accelerates training, providers some regularization effect, reducing generalizin
 3. probably use before the activations
 4. enable the use use large learning rate (also increase decay rate if learning rate schedule is in place)
 
-greedy layer-wise pre-training
+Greedy layer-wise pre-training
 -----------------
 1.the choice of initial parameters for a deep neural network can have a significant regularizing effect (and, to a lesser extent, that it can improve optimization)
 
-jump start with transfer learning
+Jump start with transfer learning
 -----------------
